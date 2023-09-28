@@ -1,0 +1,17 @@
+using System;
+using System.Linq;
+using System.Globalization;
+
+					
+public class demo
+{
+	public static void Main()
+	{
+		double val1 = 3.14159265358979323846;
+		double euler = Math.E;
+		double redonddecimal = Math.Round(val1, 10);
+		
+		Console.WriteLine("Redondeado solo 10 posiciones = "+redonddecimal);
+	
+	}
+}

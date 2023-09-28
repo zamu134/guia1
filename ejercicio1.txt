@@ -1,0 +1,20 @@
+using System;
+using System.Linq;
+using System.Globalization;
+
+					
+public class demo
+{
+	public static void Main()
+	{
+		double number = 3.14;
+		double val1 = 3.14159265358979323846;
+		
+		double PI = Math.PI;
+		double valorpi = Math.Truncate(number);
+
+		Console.WriteLine("The trucate value of "+valorpi);
+		Console.WriteLine("Redondeado hacia arriba = "+Math.Ceiling(number));
+		Console.WriteLine("Redondeado hacia abajo = "+Math.Floor(number));
+	}
+}
